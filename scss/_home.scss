@@ -93,7 +93,7 @@ li {
 
 .carousel {
   position: relative;
-  padding-top: 30%;
+  padding-top: 40%;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
 }
@@ -115,23 +115,44 @@ li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-color: #f99;
-  counter-increment: item;
+  // background-color: #f99;
+  // counter-increment: item;
 }
 
-.carousel__slide:nth-child(even) {
-  background-color: #99f;
+// .carousel__slide:nth-child(even) {
+//   // background-color: #99f;
+// }
+
+#carousel__slide1{
+  background-image: url("../images/carousel1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+#carousel__slide2{
+  background-image: url("../images/carousel2.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%
+}
+#carousel__slide3{
+  background-image: url("../images/carousel3.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%
+}
+#carousel__slide4{
+  background-image: url("../images/carousel4.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%
 }
 
-.carousel__slide:before {
-  content: counter(item);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -40%, 70px);
-  color: #fff;
-  font-size: 2em;
-}
+// .carousel__slide:before {
+//   content: counter(item);
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate3d(-50%, -40%, 70px);
+//   color: #fff;
+//   font-size: 2em;
+// }
 
 .carousel__snapper {
   position: absolute;
@@ -189,10 +210,6 @@ li {
   border-radius: 50%;
   font-size: 0;
   transition: transform 0.1s;
-
-  &--active{
-    background-color: #fff;
-  }
 }
 
 .carousel::before,

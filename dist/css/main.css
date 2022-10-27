@@ -1,1 +1,77 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/*Navigation bar*/
+
+.navbar__container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+a{
+  text-decoration: none;
+  text-shadow:  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;;
+}
+
+header{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flez;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.navbar__container{
+  list-style: none;
+
+}
+
+header{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar__links li{
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+.navbar__links li a{
+  transition: .3s;
+  color: #ffffff
+}
+
+.navbar__links li a:hover{
+  color: #ff1493
+}
+
+.navbar__emailContainer a:hover{
+  background-color: grey;
+}
+
+.btn-area{
+  cursor: pointer;
+  color: white;
+  font-size:  16px;
+  letter-spacing:  2px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  background: black;
+}
+

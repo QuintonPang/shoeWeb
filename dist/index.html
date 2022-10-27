@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
+    <script src="./js/main.js" type="text/javascript"></script>
+    <title>Shoe Web</title>
 </head>
 
 
@@ -41,6 +43,70 @@
 <div class="container">
   <h1>Our shop</h1>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.765462592462!2d101.7090538507767!3d3.1564304476904304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37d12d669c1f%3A0xc955b08cfc1aae29!2z5ZCJ6ZqG5Z2h5Z-O5Lit5Z-O6Ziz5YWJ5bm_5Zy6!5e0!3m2!1szh-CN!2smy!4v1666790035216!5m2!1szh-CN!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<section class="carousel" aria-label="Gallery">
+<ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+    <div class="carousel__snapper">
+        <a href="#carousel__slide4"
+        class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+        class="carousel__next">Go to next slide</a>
+    </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+    <div class="carousel__snapper"></div>
+    <a href="#carousel__slide1"
+        class="carousel__prev">Go to previous slide</a>
+    <a href="#carousel__slide3"
+        class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+    <div class="carousel__snapper"></div>
+    <a href="#carousel__slide2"
+        class="carousel__prev">Go to previous slide</a>
+    <a href="#carousel__slide4"
+        class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+    <div class="carousel__snapper"></div>
+    <a href="#carousel__slide3"
+        class="carousel__prev">Go to previous slide</a>
+    <a href="#carousel__slide1"
+        class="carousel__next">Go to first slide</a>
+    </li>
+</ol>
+<aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+    <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+        class="carousel__navigation-button">Go to slide 1</a>
+    </li>
+    <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+        class="carousel__navigation-button">Go to slide 2</a>
+    </li>
+    <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+        class="carousel__navigation-button">Go to slide 3</a>
+    </li>
+    <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+        class="carousel__navigation-button">Go to slide 4</a>
+    </li>
+    </ol>
+</aside>
+</section>
+<div class="map__container">
+    <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJH5xmLdE3zDERKa4a_IywVck&key=AIzaSyBlgHgbUkNGYyoIL_0_F-VYThc_u_NJJd8">
+    </iframe>
 </div>
 
 </body>

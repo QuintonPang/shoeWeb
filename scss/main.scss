@@ -1,1 +1,13 @@
+@import 'config';
 @import 'home';
+@import 'products';
+
+html{
+    height:auto;
+  }
+    
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}

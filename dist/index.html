@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link 
-    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
-    rel="stylesheet"  type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>QCK Sneakers</title>
 
+    <script src="./js/main.js" type="text/javascript"></script>
+    <title>Shoe Web</title>
 </head>
     
    
@@ -19,37 +19,140 @@
   <!--Navigation Bar-->
 
   <div class="navbar__container">
-  <header>
+
     <div class="navbar__logoContainer">
-      <img src="kkksneaker.jpg"alt="" class="logo" height="45" width="45">
+      <img src="./images/kkksneaker.jpg"alt="" class="logo" height="45" width="45">
     </div>
 
-    <nav>
-      <div>
         <ul class="navbar__links">
           <li><a href="#">Products</a></li>
           <li><a href="#">Tiers</a></li>
           <li><a href="#">About us</a></li>
         </ul>
-      </div>
-    </nav>
 
     <div class="navbar__emailContainer">
-      <a href="#" class="btn-area">Mail</a>
-    </div>
-  </header>
+      <div class="navbar__emailLogoContainer">
+        <a href="mailto:qcksneakersmy@gmail.com">
+          <span class="material-symbols-outlined">
+            mail
+            </span>
+        </a>
+      
+      </div>
+      
+      </div>
+
   </div>
+
+  <div class="hero-image__container">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 style="font-size:50px">Ye</h1>
+        <p class="hero__description">The most luxurious shoes in the world</p>
+        <p class="hero__description">"3"</p>
+      </div>
+    </div>
+  </div>
+  
+
+  <section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport" onscroll="changeButtonColor()">
+        <li id="carousel__slide1"
+            tabindex="0"
+            class="carousel__slide">
+        <div class="carousel__snapper" >
+            <a href="#carousel__slide4"
+            class="carousel__prev">Go to last slide</a>
+            <a href="#carousel__slide2"
+            class="carousel__next">Go to next slide</a>
+        </div>
+        </li>
+        <li id="carousel__slide2"
+            tabindex="1"
+            class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide1"
+            class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide3"
+            class="carousel__next">Go to next slide</a>
+        </li>
+        <li id="carousel__slide3"
+            tabindex="2"
+            class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide2"
+            class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide4"
+            class="carousel__next">Go to next slide</a>
+        </li>
+        <li id="carousel__slide4"
+            tabindex="3"
+            class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide3"
+            class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide1"
+            class="carousel__next">Go to first slide</a>
+        </li>
+    </ol>
+    <aside class="carousel__navigation">
+        <ol class="carousel__navigation-list">
+        <li class="carousel__navigation-item">
+            <a href="#carousel__slide1"
+            class="carousel__navigation-button"
+            style="background-color:white">Go to slide 1</a>
+        </li>
+        <li class="carousel__navigation-item">
+            <a href="#carousel__slide2"
+            class="carousel__navigation-button">Go to slide 2</a>
+        </li>
+        <li class="carousel__navigation-item">
+            <a href="#carousel__slide3"
+            class="carousel__navigation-button">Go to slide 3</a>
+        </li>
+        <li class="carousel__navigation-item">
+            <a href="#carousel__slide4"
+            class="carousel__navigation-button">Go to slide 4</a>
+        </li>
+        </ol>
+    </aside>
+    </section>
+    
+
+  <div class="ads-background">
+    <div class="ads__text">
+      <h1 style="
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 39px;
+      text-align: left;
+      color: white;">What is Ye?</h1>
+      <p style="
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 39px;
+      text-align: left;
+      color: white; 
+      ">This collection consists of three iconic silhouettes from the Ye archives, that were deconstructed and rebuilt in Kanye’s creative vision.“3” AKA "The Three" released in 2017 and was one of the fastest and most ambitious design Kanye has ever produced, taking about three months from ideation to release. </p>
+    </div>
+    <div class="ads__image">
+
+    </div>
+  
+</div>
+
   
 
   <!--Tiers-->
 
-  <div class="container">
-    <h1>Our Tiers</h1>
-    <div class="wrapper">
+  <div class="tier__container">
+    <h1 class="tier__title">Our Tiers</h1>
         <div class="single-price">
             <h2>Bronze</h2>
             <div class="price">
-            <img src="bronze.png" alt="">
+            <img src="./images/bronze.png" alt="">
             </div>
             <div class="rewards">
               <ul>
@@ -63,7 +166,7 @@
         <div class="single-price">
             <h2>Gold</h2>
             <div class="price">
-            <img src="gold.png" alt="">
+            <img src="./images/gold.png" alt="">
             </div>
             <div class="rewards">
               <ul>
@@ -78,7 +181,7 @@
         <div class="single-price">
           <h2>Silver</h2>
           <div class="price">
-          <img src="silver.png" alt="">
+          <img src="./images/silver.png" alt="">
           </div>
           <div class="rewards">
             <ul>
@@ -89,114 +192,19 @@
           </div>
           <a href="#">RM40 / month</a>
       </div>
-  </div>
-
-  
-
-
-
-    <script src="./js/main.js" type="text/javascript"></script>
-    <title>Shoe Web</title>
-</head>
-
-
-<body>
-
-<div class="hero-image">
-  <div class="hero-text">
-    <h1 style="font-size:50px">Ye</h1>
-    <p class="hero__description">The most luxurious shoes in the world</p>
-    <p class="hero__description">"3"</p>
-  </div>
 </div>
 
-<div class="ads-background">
-    <h1 style="font-family: 'Average Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 39px;
-    text-align: left;
-    color: white;">What is Ye?</h1>
-    <p style="font-family: 'Courier New', Courier, monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 39px;
-    text-align: left;
-    color: white; 
-    ">This collection consists of three iconic silhouettes from the Ye archives, that were deconstructed and rebuilt in Kanye’s creative vision.“3” AKA "The Three" released in 2017 and was one of the fastest and most ambitious design Kanye has ever produced, taking about three months from ideation to release. </p>
-  </div>
+
+
+
+
+<div class="shop__container">
+  <h1 class="shop__title">Our Shop</h1>
+  <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJH5xmLdE3zDERKa4a_IywVck&key=AIzaSyBlgHgbUkNGYyoIL_0_F-VYThc_u_NJJd8">
+  </iframe>
 </div>
 
-<div class="container">
-  <h1>Our shop</h1>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.765462592462!2d101.7090538507767!3d3.1564304476904304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37d12d669c1f%3A0xc955b08cfc1aae29!2z5ZCJ6ZqG5Z2h5Z-O5Lit5Z-O6Ziz5YWJ5bm_5Zy6!5e0!3m2!1szh-CN!2smy!4v1666790035216!5m2!1szh-CN!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<section class="carousel" aria-label="Gallery">
-<ol class="carousel__viewport">
-    <li id="carousel__slide1"
-        tabindex="0"
-        class="carousel__slide">
-    <div class="carousel__snapper">
-        <a href="#carousel__slide4"
-        class="carousel__prev">Go to last slide</a>
-        <a href="#carousel__slide2"
-        class="carousel__next">Go to next slide</a>
-    </div>
-    </li>
-    <li id="carousel__slide2"
-        tabindex="0"
-        class="carousel__slide">
-    <div class="carousel__snapper"></div>
-    <a href="#carousel__slide1"
-        class="carousel__prev">Go to previous slide</a>
-    <a href="#carousel__slide3"
-        class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide3"
-        tabindex="0"
-        class="carousel__slide">
-    <div class="carousel__snapper"></div>
-    <a href="#carousel__slide2"
-        class="carousel__prev">Go to previous slide</a>
-    <a href="#carousel__slide4"
-        class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide4"
-        tabindex="0"
-        class="carousel__slide">
-    <div class="carousel__snapper"></div>
-    <a href="#carousel__slide3"
-        class="carousel__prev">Go to previous slide</a>
-    <a href="#carousel__slide1"
-        class="carousel__next">Go to first slide</a>
-    </li>
-</ol>
-<aside class="carousel__navigation">
-    <ol class="carousel__navigation-list">
-    <li class="carousel__navigation-item">
-        <a href="#carousel__slide1"
-        class="carousel__navigation-button">Go to slide 1</a>
-    </li>
-    <li class="carousel__navigation-item">
-        <a href="#carousel__slide2"
-        class="carousel__navigation-button">Go to slide 2</a>
-    </li>
-    <li class="carousel__navigation-item">
-        <a href="#carousel__slide3"
-        class="carousel__navigation-button">Go to slide 3</a>
-    </li>
-    <li class="carousel__navigation-item">
-        <a href="#carousel__slide4"
-        class="carousel__navigation-button">Go to slide 4</a>
-    </li>
-    </ol>
-</aside>
-</section>
-<div class="map__container">
-    <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJH5xmLdE3zDERKa4a_IywVck&key=AIzaSyBlgHgbUkNGYyoIL_0_F-VYThc_u_NJJd8">
-    </iframe>
-</div>
+
 
 
 </body>

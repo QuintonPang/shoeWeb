@@ -21,7 +21,6 @@ const changeButtonColor  = () =>{
         buttonArray[i].style.backgroundColor = "black"
         if(isInViewport(bannerArray[i])){
             buttonArray[i].style.backgroundColor = "white"
-            break
         }
     }
 }

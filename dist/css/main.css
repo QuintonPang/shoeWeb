@@ -1,3 +1,52 @@
+@-webkit-keyframes downArrow {
+  from {
+    bottom: 40px;
+    opacity: 0.5;
+  }
+  to {
+    bottom: 10px;
+    opacity: 1;
+  }
+}
+
+@keyframes downArrow {
+  from {
+    bottom: 40px;
+    opacity: 0.5;
+  }
+  to {
+    bottom: 10px;
+    opacity: 1;
+  }
+}
+
+.hero__arrow {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  bottom: 40px;
+  -webkit-animation-name: downArrow;
+          animation-name: downArrow;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 .hero__description {
   color: white;
   text-shadow: 2px 2px 4px #000000;

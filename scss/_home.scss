@@ -1,4 +1,27 @@
-
+@keyframes
+downArrow{
+  from{
+    bottom:40px;
+    opacity:0.5;
+  }
+  to{
+    bottom:10px;
+    opacity:1;
+  }
+}
+.hero__arrow{
+  position:absolute;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  bottom:40px;
+  animation-name: downArrow;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
 
   .hero__description {
     color: white;

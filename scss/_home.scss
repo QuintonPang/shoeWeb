@@ -324,8 +324,7 @@ li {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 /*Footer*/
 
 .footer__container {
@@ -380,7 +379,7 @@ text-shadow:
 }
 
 
-.footer__col ul li:(:last-child){
+.footer__col ul li:last-child{
   margin-bottom: 10px;
 }
 
@@ -425,8 +424,7 @@ text-shadow:
   font-size: 10px;
 }
 
-=======
-=======
+
 /*Navigation bar*/
 
 .navbar__container {
@@ -508,7 +506,6 @@ a{
 }
 
 
->>>>>>> 9c97273d3204dfc4f63915b1bae62c4e646e9497
 .navbar__links a {
   text-decoration: none;
   text-shadow:  0 0 7px #fff,
@@ -699,7 +696,7 @@ a{
   max-width:50%;
 }
 
-.shop__container{
+.shop__container {
   padding: 20px;
   width:100%; 
   display:flex;
@@ -710,4 +707,3 @@ a{
 .shop__title{
   margin:40px;
 }
->>>>>>> 61616f1e6fb3e3040d19606d79ffd4d7b15c9ff8

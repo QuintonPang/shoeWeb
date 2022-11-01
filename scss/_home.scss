@@ -38,8 +38,8 @@ downArrow{
     min-height:512px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/shoepic.jpg");
     background-size: auto;
-      background-position: center;
-      background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
 
@@ -189,7 +189,8 @@ li {
 #carousel__slide1{
   background-image: url("../images/carousel1.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%
+  background-size: 50% 100%;
+  background-position: center;
 }
 #carousel__slide2{
   background-image: url("../images/carousel2.png");
@@ -199,12 +200,14 @@ li {
 #carousel__slide3{
   background-image: url("../images/carousel3.png");
   background-repeat: no-repeat;
-  background-size:100% 100%
+  background-size:50% 100%;
+  background-position: center;
 }
 #carousel__slide4{
   background-image: url("../images/carousel4.png");
   background-repeat: no-repeat;
-  background-size:100% 100%
+  background-size:50% 100%;
+  background-position: center;
 }
 
 // .carousel__slide:before {
@@ -406,6 +409,7 @@ li {
 
 
 .navbar__links a {
+  color: white;
   text-decoration: none;
   text-shadow:  0 0 7px #fff,
   0 0 10px #fff,
@@ -592,6 +596,7 @@ li {
 }
 
 .ads__image{
+  background-image: url("../dist/images/cbsproductshoepic1.jpg");
   max-width:50%;
 }
 

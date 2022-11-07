@@ -636,11 +636,10 @@
   font-family: "Poppins";
   width: 100%;
   min-height: 120vh;
-  background-image: url("../dist/images/kkksnaker2.jpg");
+  background-image: url("../dist/images/snekerback.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  opacity: 95%;
 }
 
 .wrapper {
@@ -702,7 +701,7 @@
   margin-top: 0.25em;
 }
 
-.tier__title {
+.tier2__title h1 {
   color: rgb(29, 19, 17);
   font-size: 32px;
   margin: 0;

@@ -460,6 +460,11 @@ downArrow{
 
 /*Tier*/
 
+.flex__container {
+  display: flex;
+  justify-content: center;
+}
+
 
 .tier__container {
   margin: 0;
@@ -548,8 +553,16 @@ downArrow{
   height: 120px;
   border-radius: 25px;
   width: 200px;
-  border: 2px solid #ff1493;
+  border: 2px solid #ffffff;
   margin: 5% auto 0 auto;
+  box-shadow: 0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 15px #fff,
+  0 0 42px rgb(255, 174, 0),
+  0 0 82px rgb(255, 174, 0),
+  0 0 92px rgb(255, 174, 0),
+  0 0 102px rgb(255, 174, 0),
+  0 0 151px rgb(255, 174, 0);
   filter: contrast(160%);
 }
 
@@ -571,7 +584,7 @@ downArrow{
   transform: scale(1.1);
   z-index: 1;
   border-radius: 25px;
-  border: 3px solid#02fffb;  
+  border: 3px solid#c43d1b;  
 }
 
 
@@ -579,7 +592,7 @@ downArrow{
 
 .single-price a {
   text-decoration: none;
-  background: #4f5655;
+  background: #c43d1b;
   color: white;
   padding: 10px 60px;
   display: inline-block;
@@ -628,12 +641,9 @@ downArrow{
   font-family: 'Poppins', sans-serif;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 .footer__container {
+  padding: 30px;
   min-width: 1170px;
   margin: auto;
 }
@@ -736,89 +746,3 @@ text-shadow:
 }
 
 
-/*Tier page 2*/
-
-.tier__2 {
-  margin: 0;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: 'Poppins';
-  width: 100%;
-  min-height:120vh;
-  background-image: url('../dist/images/snekerback.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  
-  
-
-}
-
-.wrapper {
-  width: 900px;
-  margin: 5% auto;
-}
-
-.tier__image {
-  width: 33%;
-  background: #201f1f;
-  float: left;
-  box-shadow: 1px 1px 20px rgba(8, 7, 7, 0.5);
-  text-align: center;
-  transition: 0.9s;
-  opacity: 95%;  
-}
-
-.tier__image {
-  position: relative;
-  width: 350px;
-}
-
-.timage__img {
-  display: block;
-  width: 100%;
-}
-
-.timage__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  right: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: .5s ease;
-
-}
-
-.timage__overlay:hover {
-  opacity : 1;
-  color: white;
-}
-
-.timage__title {
-  font-size: 2em;
-  font-weight: bold;
-  left:auto
-}
-
-.timage__rewards {
-  font-size: 1.25;
-  margin-top: 0.25em;
-}
-
-.tier2__title h1{  
-  color: rgb(29, 19, 17);
-  font-size: 32px;
-  margin:0;
-  padding: 30px 0;
-  text-align: center;
-  font-weight: 1000;
-}

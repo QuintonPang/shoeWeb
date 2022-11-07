@@ -1,16 +1,17 @@
 .hero-image2__container {
     position:relative;
-    height:auto;
-    min-height:512px;
+    height:500px;
+    
 }
 
 .hero2-image {
-    height:100%;    
-    min-height:512px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cbsproductshoepic1.jpg");
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 100%;
+  min-height:512px;
+  padding: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cbsproductheroimage.png");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero2-text {
@@ -20,5 +21,111 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-
+    text-shadow: 2px 2px 4px #000000;
 }
+
+.container_card {
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -10px auto;
+  }
+  .border_card {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+  } 
+  .border_card :hover {
+    // border: 1px solid #fff;
+  }
+  .card {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .card0 {
+    background: url("../images/products1.png") center center no-repeat;
+    background-size: 300px;
+  }
+  .card0:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/products1_hover.png") left center no-repeat;
+    background-size: 600px;
+  }
+  .card0:hover h2 {
+    opacity: 1;
+  }
+  .card0:hover .fa {
+    opacity: 1;
+  }
+  .card1 {
+    background: url("https://www.dhresource.com/0x0/f2/albu/g8/M00/84/B7/rBVaVF72ZHuAGAEVAAF2BWQyuZ0226.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+  .card1:hover {
+    background: url("https://www.dhresource.com/0x0/f2/albu/g11/M00/46/F7/rBNaFV8gDoSAdygyAAEbtE24bNs361.jpg/d-or-air-d-r-conv-rs-hommes-oblique-k-ws.jpg") left center no-repeat;
+    background-size: 600px;
+  }
+  .card1:hover h2 {
+    opacity: 1;
+  }
+  .card1:hover .fa {
+    opacity: 1;
+  }
+  .card2 {
+    background: url("https://bagaholicboy.com/wp-content/uploads/2019/05/dior_sorayama_b23-sneakers-1024x768.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+  .card2:hover {
+    background: url("https://cdn.sanity.io/images/c1chvb1i/production/430a87a73d05e8ae058f8ec69b8653de53ea07da-1100x735.jpg/dior-b23-Hajime-Sorayama-heel.jpg") left center no-repeat;
+    background-size: 600px;
+  }
+  .card2:hover h2 {
+    opacity: 1;
+  }
+  .card2:hover .fa {
+    opacity: 1;
+  }
+  h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .fa {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .icons {
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    margin-top: 5px;
+    margin-right: 200px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+  }
+  

@@ -147,8 +147,7 @@ downArrow{
   -ms-overflow-style: none;
 }
 
-ol,
-li {
+.carousel>ol,.carousel>li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -353,7 +352,7 @@ li {
   flex:2;
 }
 
-a{
+.navbar__container  li a{
   text-decoration: none;
   text-shadow:  0 0 7px #fff,
   0 0 10px #fff,
@@ -409,6 +408,7 @@ a{
 
 
 .navbar__links a {
+  color: white;
   text-decoration: none;
   text-shadow:  0 0 7px #fff,
   0 0 10px #fff,
@@ -507,12 +507,23 @@ a{
 
 .rewards {
   margin-top: 10%;
+  // left: 40px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rewards li{
+     position:relative;
+     list-style: disc;
 }
 
 .rewards h4 {
+  left: 50px;
   font-style: 14px;
   font-weight: normal;
-  text-align: center;
+  text-align: left;
   color: white;
   line-height: 1;
 }
@@ -542,6 +553,7 @@ a{
   filter: contrast(160%);
 }
 
+
 .single-price:nth-child(odd){
   position:relative;
   bottom:15px;
@@ -559,7 +571,7 @@ a{
   transform: scale(1.1);
   z-index: 1;
   border-radius: 25px;
-  border: 3px solid#FFD700;  
+  border: 3px solid#02fffb;  
 }
 
 
@@ -567,7 +579,7 @@ a{
 
 .single-price a {
   text-decoration: none;
-  background: #14f7ff;
+  background: #4f5655;
   color: white;
   padding: 10px 60px;
   display: inline-block;
@@ -706,4 +718,107 @@ text-shadow:
   color: #fff;
   text-align: center;
   font-size: 10px;
+}
+
+
+
+
+
+.ads-background {
+  min-height:512px;
+  height:100%;
+  display:flex;
+  flex-direction: row;
+  padding:30px;
+  position: relative;
+  height: 50%;
+  background: linear-gradient(45deg, #0F0F0F 50%, #700282 78.65%);
+}
+
+
+/*Tier page 2*/
+
+.tier__2 {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  width: 100%;
+  min-height:120vh;
+  background-image: url('../dist/images/kkksnaker2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  opacity: 95%;
+
+}
+
+.wrapper {
+  width: 900px;
+  margin: 5% auto;
+}
+
+.tier__image {
+  width: 33%;
+  background: #201f1f;
+  float: left;
+  box-shadow: 1px 1px 20px rgba(8, 7, 7, 0.5);
+  text-align: center;
+  transition: 0.9s;
+  opacity: 95%;  
+}
+
+.tier__image {
+  position: relative;
+  width: 350px;
+}
+
+.timage__img {
+  display: block;
+  width: 100%;
+}
+
+.timage__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  right: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+ 
+  transition: .5s ease;
+
+}
+
+.timage__overlay:hover {
+  opacity : 1;
+  color: white;
+}
+
+.timage__title {
+  font-size: 2em;
+  font-weight: bold;
+  left:auto
+}
+
+.timage__rewards {
+  font-size: 1.25;
+  margin-top: 0.25em;
+}
+
+.tier__title{
+  color: rgb(29, 19, 17);
+  font-size: 32px;
+  margin:0;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: 1000;
 }

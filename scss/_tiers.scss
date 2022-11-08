@@ -1,12 +1,21 @@
 /*Tier page 2*/
 
-.tier2__title h1{
+.tier__title {
     color: white;
     text-align: center;
     font-size: 32px;
     margin:0;
     padding: 30px 0;
     font-weight: 1000;
+    text-shadow:  0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+
 }
 
 .flex__container {
@@ -14,14 +23,14 @@
     justify-content: center;
 }
 
-.tier__container {
+.tier__2 {
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins';
     width: 100%;
     min-height:120vh;
-    background-image: url('../images/tierBackground.jpg');
+    background-image: url('../images/sneakerbackground.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -43,7 +52,7 @@
     box-shadow: 1px 1px 20px rgba(8, 7, 7, 0.5);
     text-align: center;
     transition: 0.9s;
-    opacity: 95%;  
+    opacity: 90%;  
    
   }
   
@@ -86,6 +95,9 @@
     opacity : 1;
     color: white;
     width: 100%;
+    border-style: 0 0 15px rgb(8, 8, 8) ;
+    z-index: 1;
+    border: 3px solid#08f9f1;  
   }
   
   .timage__title {

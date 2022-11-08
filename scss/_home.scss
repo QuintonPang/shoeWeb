@@ -326,6 +326,7 @@ downArrow{
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
 
+
 /*Navigation bar*/
 
 .navbar__container {
@@ -473,7 +474,7 @@ downArrow{
   font-family: 'Poppins';
   width: 100%;
   min-height:120vh;
-  background-image: url('../images/tierBackground.jpg');
+  background-image: url('../images/tierBackgrounds.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
@@ -558,11 +559,11 @@ downArrow{
   box-shadow: 0 0 7px #fff,
   0 0 10px #fff,
   0 0 15px #fff,
-  0 0 42px rgb(255, 174, 0),
-  0 0 82px rgb(255, 174, 0),
-  0 0 92px rgb(255, 174, 0),
-  0 0 102px rgb(255, 174, 0),
-  0 0 151px rgb(255, 174, 0);
+  0 0 30px rgb(255, 174, 0),
+  0 0 40px rgb(255, 174, 0),
+  0 0 50px rgb(255, 174, 0),
+  0 0 60px rgb(255, 174, 0),
+  0 0 70px rgb(255, 174, 0);
   filter: contrast(160%);
 }
 

@@ -1,6 +1,6 @@
 /*Tier page 2*/
 
-.tier__title {
+.tier2__title {
     color: white;
     text-align: center;
     font-size: 32px;
@@ -88,9 +88,20 @@
     bottom: 0;
     overflow: hidden;
     transition: .5s ease;
-  
-  }
-  
+   }
+
+   .timage__overlay a {
+    text-decoration: none;
+    background: #2fcacd;
+    color: white;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+
+   }
+
   .timage__overlay:hover {
     opacity : 1;
     color: white;
@@ -98,6 +109,14 @@
     border-style: 0 0 15px rgb(8, 8, 8) ;
     z-index: 1;
     border: 3px solid#08f9f1;  
+    box-shadow:  0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
   }
   
   .timage__title {

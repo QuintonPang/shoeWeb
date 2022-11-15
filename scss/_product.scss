@@ -1,20 +1,49 @@
-.specification {
+.titleofproduct1 {
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: right;
+    position: absolute; 
+    padding-top: 100px;
+    padding-left: 55%;
+}
+
+.titleofproduct1_text {
     font-family: 'Average Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
-    line-height: 65px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 695px;
-    height: 113px;
-    left: 667px;
-    top: 589px;
+    font-size: 20px;
+    position: absolute; 
+    padding-left: 55%;
+    padding-top: 200px;
+    padding-right: 30px;
+}
+
+.specification {
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-size: 25px;
+    text-align: right;
+    position: absolute; 
+    padding-left: 55%;
+    padding-top: 500px;
     color: black;
 }
 
 .specification_text {
-    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
-    
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute; 
+    padding-left: 55%;
+    padding-top: 600px;
+    padding-right: 30px;
 }
+
+.productdetailpic {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+

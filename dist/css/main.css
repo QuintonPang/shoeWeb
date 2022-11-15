@@ -384,6 +384,11 @@
 }
 
 /*Tier*/
+.flex__container {
+  display: flex;
+  justify-content: center;
+}
+
 .tier__container {
   margin: 0;
   padding: 0px;
@@ -391,7 +396,7 @@
   font-family: "Poppins";
   width: 100%;
   min-height: 120vh;
-  background-image: url("../images/tierBackground.jpg");
+  background-image: url("../images/tierBackgrounds.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -457,8 +462,9 @@
   height: 120px;
   border-radius: 25px;
   width: 200px;
-  border: 2px solid #ff1493;
+  border: 2px solid #ffffff;
   margin: 5% auto 0 auto;
+  box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 30px rgb(255, 174, 0), 0 0 40px rgb(255, 174, 0), 0 0 50px rgb(255, 174, 0), 0 0 60px rgb(255, 174, 0), 0 0 70px rgb(255, 174, 0);
   filter: contrast(160%);
 }
 
@@ -479,12 +485,12 @@
   transform: scale(1.1);
   z-index: 1;
   border-radius: 25px;
-  border: 3px solid #02fffb;
+  border: 3px solid #c43d1b;
 }
 
 .single-price a {
   text-decoration: none;
-  background: #4f5655;
+  background: #c43d1b;
   color: white;
   padding: 10px 60px;
   display: inline-block;
@@ -621,89 +627,6 @@
   position: relative;
   height: 50%;
   background: linear-gradient(45deg, #0F0F0F 50%, #700282 78.65%);
-}
-
-/*Tier page 2*/
-.tier__2 {
-  margin: 0;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: "Poppins";
-  width: 100%;
-  min-height: 120vh;
-  background-image: url("../dist/images/kkksnaker2.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  opacity: 95%;
-}
-
-.wrapper {
-  width: 900px;
-  margin: 5% auto;
-}
-
-.tier__image {
-  width: 33%;
-  background: #201f1f;
-  float: left;
-  box-shadow: 1px 1px 20px rgba(8, 7, 7, 0.5);
-  text-align: center;
-  transition: 0.9s;
-  opacity: 95%;
-}
-
-.tier__image {
-  position: relative;
-  width: 350px;
-}
-
-.timage__img {
-  display: block;
-  width: 100%;
-}
-
-.timage__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  right: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  font-family: "Quicksand", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: 0.5s ease;
-}
-
-.timage__overlay:hover {
-  opacity: 1;
-  color: white;
-}
-
-.timage__title {
-  font-size: 2em;
-  font-weight: bold;
-  left: auto;
-}
-
-.timage__rewards {
-  font-size: 1.25;
-  margin-top: 0.25em;
-}
-
-.tier__title {
-  color: rgb(29, 19, 17);
-  font-size: 32px;
-  margin: 0;
-  padding: 30px 0;
-  text-align: center;
-  font-weight: 1000;
 }
 
 .hero-image2__container {
@@ -846,6 +769,211 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.titleofproduct1 {
+  font-family: "Average Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: right;
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 55%;
+}
+
+.titleofproduct1_text {
+  font-family: "Average Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  position: absolute;
+  padding-left: 55%;
+  padding-top: 200px;
+  padding-right: 30px;
+}
+
+.specification {
+  font-family: "Average Sans";
+  font-style: normal;
+  font-size: 25px;
+  text-align: right;
+  position: absolute;
+  padding-left: 55%;
+  padding-top: 500px;
+  color: black;
+}
+
+.specification_text {
+  font-family: "Average Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  position: absolute;
+  padding-left: 55%;
+  padding-top: 600px;
+  padding-right: 30px;
+}
+
+.productdetailpic {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+/*Tier page 2*/
+.tier__title {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  margin: 0;
+  padding: 30px 0;
+  font-weight: 1000;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+.flex__container {
+  display: flex;
+  justify-content: center;
+}
+
+.tier__2 {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  width: 100%;
+  min-height: 120vh;
+  background-image: url("../images/sneakerbackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 95%;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 5% auto;
+}
+
+.tier__image {
+  width: 33%;
+  background: #201f1f;
+  float: left;
+  box-shadow: 1px 1px 20px rgba(8, 7, 7, 0.5);
+  text-align: center;
+  transition: 0.9s;
+  opacity: 90%;
+}
+
+.tier__image {
+  position: relative;
+  width: 350px;
+  display: block;
+  height: auto;
+}
+
+.timage__img {
+  display: block;
+  width: 100%;
+}
+
+.timage__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  right: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+.timage__overlay:hover {
+  opacity: 1;
+  color: white;
+  width: 100%;
+  border-style: 0 0 15px rgb(8, 8, 8);
+  z-index: 1;
+  border: 3px solid #08f9f1;
+}
+
+.timage__title {
+  font-size: 2em;
+  font-weight: bold;
+  left: auto;
+}
+
+.timage__rewards {
+  font-size: 1.25;
+  margin-top: 0.25em;
+}
+
+.tier2__title h1 {
+  color: rgb(29, 19, 17);
+  font-size: 32px;
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: 1000;
+}
+
+.timage__overlay a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 60px;
+  display: inline-block;
+  margin: 10% auto;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.infoSections__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+}
+
+.infoSection__container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 100px;
+  margin: 30px 0px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.infoSection__container:nth-child(even) {
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  flex-direction: column-reverse;
+}
+
+.image__container {
+  height: 150px;
+  width: 300px;
+  margin: 30px;
+}
+
+.image__container > img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.info__container {
+  line-height: 30px;
 }
 
 html {

@@ -67,6 +67,8 @@ downArrow{
 }
 
 
+
+
 @keyframes tonext {
   75% {
     left: 0;
@@ -120,6 +122,7 @@ downArrow{
     scroll-snap-align: center;
   }
 }
+
 
 
 
@@ -474,21 +477,30 @@ downArrow{
   font-family: 'Poppins';
   width: 100%;
   min-height:120vh;
-  background-image: url('../images/tierBackgrounds.jpg');
+  background-image: url('../images/tierBackground.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-  opacity: 95%;
+  
 
 }
 
-.tier__title{
-  color: rgb(29, 19, 17);
+.tier1__title {
+  color: rgb(0, 0, 0);
   font-size: 32px;
   margin:0;
   padding: 30px 0;
   text-align: center;
   font-weight: 1000;
+  text-shadow:  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgb(182, 235, 217),
+  0 0 82px rgb(182, 235, 217),
+  0 0 92px rgb(182, 235, 217),
+  0 0 102px rgb(182, 235, 217),
+  0 0 151px rgb(182, 235, 217);
+
 }
 
 
@@ -652,7 +664,7 @@ downArrow{
 .footer__row {
   display: flex;
   flex-wrap: wrap;
-}
+
 
 .footer__col ul {
   list-style: none;
@@ -667,8 +679,8 @@ downArrow{
   padding: 0 15px;
 }
 
-.footer__col h2 {
-  font-size: 18px;
+.footer__col p {
+  font-size: 300px;
   color: rgb(9, 230, 255);
 text-shadow:
     0 0 7px #fff,

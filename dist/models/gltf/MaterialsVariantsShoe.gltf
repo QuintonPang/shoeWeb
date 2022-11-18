@@ -123,7 +123,7 @@
     },
     {
       "mimeType": "image/jpeg",
-      "uri": "diffuseMidnight.jpg"
+      "uri": "qck1.jpg"
     },
     {
       "mimeType": "image/jpeg",
@@ -131,11 +131,11 @@
     },
     {
       "mimeType": "image/jpeg",
-      "uri": "diffuseBeach.jpg"
+      "uri": "qck2.jpg"
     },
     {
       "mimeType": "image/jpeg",
-      "uri": "diffuseStreet.jpg"
+      "uri": "qck3.jpg"
     }
   ],
   "materials": [

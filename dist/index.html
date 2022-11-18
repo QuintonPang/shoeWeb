@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+  <meta charset="UTF-8">
 <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/main.css">
+    <style>
+      *{ cursor: url(crosshair.cur,defult;)}
+    </style>
     <title>QCK Sneakers</title>
 
     <script src="./js/main.js" type="text/javascript"></script>
     <title>Shoe Web</title>
 </head>
     
-   
+   <!-- for example, i added a new line -->
+
 <body>
 
 
@@ -26,7 +30,7 @@
     </div>
 
         <ul class="navbar__links">
-          <li><a href="index.html">Home</a></li>
+          <li class="navbar__link-active"><a href="index.html">Home</a></li>
           <li><a href="products.html">Products</a></li>
 
           <li><a href="tierpage.html">Tiers</a></li>
@@ -159,7 +163,7 @@
   <!--Tiers-->
 
   <div class="tier__container">
-    <h1 class="tier__title">Our Tiers</h1>
+    <h1 class="tier1__title">Our Tiers</h1>
       <div class="flex__container">
         <div class="single-price">
             <h2>Bronze</h2>
@@ -220,51 +224,54 @@
 </div>
 
 
-<footer class="footer">
-  <div class="footer__container">
-      <div class="footer__row">
-          <div class="footer__col">
-          <h2>Information</h2>
-          <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Delivery & Order Processing</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Refund / Return / Exchange Policy</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Parcel Tracking</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">FAQ</a></li>
-          </ul>
-          </div>
-          <div class="footer__col">
-          <h2>My Account</h2>
-          <ul>
-          <li><a href="#">My Account</a></li>
-          <li><a href="#">Order & Purchase History</a></li>
-          <li><a href="#">Wish List</a></li>
-          <li><a href="#">Newsletter</a></li>
-          </ul>            
-          </div>
-          <div class="footer__col">
-          <h2>Social Media</h2>
-          <ul>
-          <li><a href="#"><i class="fab fa-facebook-f"></i>&nbsp;Facebook</a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i>&nbsp;Twitter</a></li>
-          <li><a href="#"><i class="fab fa-instagram"></i>&nbsp;Instagram</a></li>
-          <li><a href="#"><i class="fab fa-youtube"></i>&nbsp;Youtube</a></li>
-          <li><a href="#"><i class="fab fa-linkedin-in"></i>&nbsp;Linkedin</a></li>
-          </ul>
-          </div> 
-          <div class="footer__col">
-          <h2>Join Us</h2>
-          <input type="email" placeholder="Enter you email address">
-          <input type="submit" value="Sign Up">
-          </div>
-      <p>©2022,Ye</p>
-      </div>
-  </div>
-</footer>
+       <!--Footer-->
 
+       <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__row">
+                <div class="footer__col">
+                <p>Information</p>
+                <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Delivery & Order Processing</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Refund / Return / Exchange Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Parcel Tracking</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                </ul>
+                </div>
+                <div class="footer__col">
+                <p>My Account<p>
+                <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Order & Purchase History</a></li>
+                <li><a href="#">Wish List</a></li>
+                <li><a href="#">Newsletter</a></li>
+                </ul>            
+                </div>
+                <div class="footer__col">
+                <p>Social Media</p>
+                <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i>&nbsp;Facebook</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i>&nbsp;Twitter</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i>&nbsp;Instagram</a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i>&nbsp;Youtube</a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i>&nbsp;Linkedin</a></li>
+                </ul>
+                </div> 
+                <div class="footer__col">
+                <p>Join Us</p>
+                <div class="footer__col__input__container">
+                  <input type="email"class="footer__col__input"  placeholder="Enter you email address">
+                  <input type="submit" value="Sign Up"class="footer__col__input__button">
+  </div>
+                </div>
+            <p>©2022,Ye</p>
+            </div>
+        </div>
+      </footer>
 </body>
 </html>
 

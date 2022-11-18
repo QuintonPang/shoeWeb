@@ -76,11 +76,11 @@
     opacity: 1;
   }
   .card1 {
-    background: url("https://www.dhresource.com/0x0/f2/albu/g8/M00/84/B7/rBVaVF72ZHuAGAEVAAF2BWQyuZ0226.jpg") center center no-repeat;
+    background: url("../images/products2.png") center center no-repeat;
     background-size: 300px;
   }
   .card1:hover {
-    background: url("https://www.dhresource.com/0x0/f2/albu/g11/M00/46/F7/rBNaFV8gDoSAdygyAAEbtE24bNs361.jpg/d-or-air-d-r-conv-rs-hommes-oblique-k-ws.jpg") left center no-repeat;
+    background: url("../images/products2_hover.png") left center no-repeat;
     background-size: 600px;
   }
   .card1:hover h2 {
@@ -90,11 +90,11 @@
     opacity: 1;
   }
   .card2 {
-    background: url("https://bagaholicboy.com/wp-content/uploads/2019/05/dior_sorayama_b23-sneakers-1024x768.jpg") center center no-repeat;
+    background: url("../images/products3.png") center center no-repeat;
     background-size: 300px;
   }
   .card2:hover {
-    background: url("https://cdn.sanity.io/images/c1chvb1i/production/430a87a73d05e8ae058f8ec69b8653de53ea07da-1100x735.jpg/dior-b23-Hajime-Sorayama-heel.jpg") left center no-repeat;
+    background: url("../images/products3_hover.png") left center no-repeat;
     background-size: 600px;
   }
   .card2:hover h2 {
@@ -128,4 +128,9 @@
     
     
   }
+
+  .container_card a {
+    text-decoration:none;
+  }
+  
   

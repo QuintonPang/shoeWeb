@@ -122,20 +122,20 @@
       "uri": "occlusionRougnessMetalness.jpg"
     },
     {
-      "mimeType": "image/jpeg",
-      "uri": "qck1.jpg"
+      "mimeType": "image/png",
+      "uri": "qck1.png"
     },
     {
       "mimeType": "image/jpeg",
       "uri": "normal.jpg"
     },
     {
-      "mimeType": "image/jpeg",
-      "uri": "qck2.jpg"
+      "mimeType": "image/png",
+      "uri": "qck2.png"
     },
     {
-      "mimeType": "image/jpeg",
-      "uri": "qck3.jpg"
+      "mimeType": "image/png",
+      "uri": "qck3.png"
     }
   ],
   "materials": [

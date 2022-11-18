@@ -1,20 +1,81 @@
-.specification {
+.titleofproduct1 {
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.titleofproduct1_text {
     font-family: 'Average Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
-    line-height: 65px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 695px;
-    height: 113px;
-    left: 667px;
-    top: 589px;
-    color: black;
+    font-size: 20px;
+}
+
+.specification {
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
 }
 
 .specification_text {
-    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.product__container{
+    padding:50px 40px;
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    width:100%;
+    min-height:100%;
+    align-items:center;
+    gap: 10px;  
+}
+
+
+.text__container{
+    display:flex;
+    flex-direction:column;
+    gap:75px;
     
+}
+
+.product__image__container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    min-width:30%;
+    min-height:75vh;
+    gap:10px;
+}
+
+.productDesc__container{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    
+}
+.productSpec__container{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.product__image__container iframe{
+    border: none;
+    border-radius: 10px;
+}
+
+.image__reminder{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }

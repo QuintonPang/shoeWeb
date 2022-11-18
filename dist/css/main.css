@@ -456,8 +456,18 @@
   color: #ffffff;
 }
 
+.navbar__links a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa, 0 0 151px #0fa;
+}
+
 .navbar__links li a:hover {
-  color: #ff1493;
+  color: #eeab2e;
+}
+
+.navbar__links .navbar__link-active a {
+  color: #eeab2e;
 }
 
 .navbar__emailContainer a:hover {
@@ -471,12 +481,6 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 10px 30px;
-}
-
-.navbar__links a {
-  color: white;
-  text-decoration: none;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa, 0 0 151px #0fa;
 }
 
 .navbar__emailContainer {
@@ -541,20 +545,20 @@
   font-family: 'Poppins';
   width: 100%;
   min-height: 120vh;
-  background-image: url("../images/tierBackgrounds.jpg");
+  background-image: url("../images/tierBackground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  opacity: 95%;
 }
 
-.tier__title {
-  color: #1d1311;
+.tier1__title {
+  color: black;
   font-size: 32px;
   margin: 0;
   padding: 30px 0;
   text-align: center;
   font-weight: 1000;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #b6ebd9, 0 0 82px #b6ebd9, 0 0 92px #b6ebd9, 0 0 102px #b6ebd9, 0 0 151px #b6ebd9;
 }
 
 .wrapper {
@@ -745,8 +749,8 @@
   padding: 0 15px;
 }
 
-.footer__col h2 {
-  font-size: 18px;
+.footer__col h1 {
+  font-size: 300px;
   color: #09e6ff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #00fff7, 0 0 82px #00fff7, 0 0 92px #00fff7, 0 0 102px #00fff7, 0 0 151px #00fff7;
   text-transform: uppercase;
@@ -815,6 +819,59 @@
   position: relative;
   height: 50%;
   background: linear-gradient(45deg, #0F0F0F 50%, #700282 78.65%);
+}
+
+.footer__col__input {
+  height: 40px;
+  border-radius: 10px;
+}
+
+.footer__col__input__button {
+  border: 1px solid #673ab7;
+  border-radius: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 12px;
+  display: inline-block;
+  border-radius: 2px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  outline: 0;
+  position: relative;
+  text-decoration: none !important;
+  color: #fff;
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+  background: #BBBBBB;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+.footer__col__input__button:hover {
+  background: #ffffff;
+  color: #BBBBBB;
+  border: 2px solid #BBBBBB;
+}
+
+.footer__col__input__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
 }
 
 .hero-image2__container {
@@ -915,12 +972,12 @@
 }
 
 .card1 {
-  background: url("https://www.dhresource.com/0x0/f2/albu/g8/M00/84/B7/rBVaVF72ZHuAGAEVAAF2BWQyuZ0226.jpg") center center no-repeat;
+  background: url("../images/products2.png") center center no-repeat;
   background-size: 300px;
 }
 
 .card1:hover {
-  background: url("https://www.dhresource.com/0x0/f2/albu/g11/M00/46/F7/rBNaFV8gDoSAdygyAAEbtE24bNs361.jpg/d-or-air-d-r-conv-rs-hommes-oblique-k-ws.jpg") left center no-repeat;
+  background: url("../images/products2_hover.png") left center no-repeat;
   background-size: 600px;
 }
 
@@ -933,12 +990,12 @@
 }
 
 .card2 {
-  background: url("https://bagaholicboy.com/wp-content/uploads/2019/05/dior_sorayama_b23-sneakers-1024x768.jpg") center center no-repeat;
+  background: url("../images/products3.png") center center no-repeat;
   background-size: 300px;
 }
 
 .card2:hover {
-  background: url("https://cdn.sanity.io/images/c1chvb1i/production/430a87a73d05e8ae058f8ec69b8653de53ea07da-1100x735.jpg/dior-b23-Hajime-Sorayama-heel.jpg") left center no-repeat;
+  background: url("../images/products3_hover.png") left center no-repeat;
   background-size: 600px;
 }
 
@@ -986,32 +1043,129 @@ h2 {
       justify-content: space-around;
 }
 
-.specification {
+.container_card a {
+  text-decoration: none;
+}
+
+.titleofproduct1 {
+  font-family: 'Average Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.titleofproduct1_text {
   font-family: 'Average Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
-  line-height: 65px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-  width: 695px;
-  height: 113px;
-  left: 667px;
-  top: 589px;
-  color: black;
+  font-size: 20px;
+}
+
+.specification {
+  font-family: 'Average Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
 }
 
 .specification_text {
-  font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-family: 'Average Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.product__container {
+  padding: 50px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.text__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 75px;
+}
+
+.product__image__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  min-width: 30%;
+  min-height: 75vh;
+  gap: 10px;
+}
+
+.productDesc__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.productSpec__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.product__image__container iframe {
+  border: none;
+  border-radius: 10px;
+}
+
+.image__reminder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /*Tier page 2*/
-.tier__title {
+.tier2__title {
   color: white;
   text-align: center;
   font-size: 32px;
@@ -1105,6 +1259,17 @@ h2 {
   transition: .5s ease;
 }
 
+.timage__overlay a {
+  text-decoration: none;
+  background: #2fcacd;
+  color: white;
+  padding: 10px 60px;
+  display: inline-block;
+  margin: 10% auto;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .timage__overlay:hover {
   opacity: 1;
   color: white;
@@ -1112,6 +1277,8 @@ h2 {
   border-style: 0 0 15px #080808;
   z-index: 1;
   border: 3px solid #08f9f1;
+  -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+          box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
 }
 
 .timage__title {
@@ -1198,6 +1365,12 @@ h2 {
   line-height: 30px;
 }
 
+.aboutUs__video {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
 html {
   height: auto;
 }
@@ -1205,6 +1378,6 @@ html {
 body {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Aleo, Helvetica, Arial, sans-serif !important;
 }
 /*# sourceMappingURL=main.css.map */

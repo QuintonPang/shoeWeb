@@ -71,7 +71,7 @@
     {
       "name": "shoes-processed",
       "byteLength": 705680,
-      "uri": "MaterialsVariantsShoe.bin"
+      "uri": "QCK2.bin"
     }
   ],
   "bufferViews": [
@@ -123,19 +123,11 @@
     },
     {
       "mimeType": "image/png",
-      "uri": "qck1.png"
+      "uri": "qck2.png"
     },
     {
       "mimeType": "image/jpeg",
       "uri": "normal.jpg"
-    },
-    {
-      "mimeType": "image/png",
-      "uri": "qck2.png"
-    },
-    {
-      "mimeType": "image/png",
-      "uri": "qck3.png"
     }
   ],
   "materials": [

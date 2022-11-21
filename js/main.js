@@ -86,10 +86,13 @@ addEventListener('scroll', ()=>{
     const carousel = document.getElementsByClassName("carousel")[0];
     const ads = document.getElementsByClassName("ads-background")[0];
     const tier = document.getElementsByClassName("tier__container")[0];
-    if((window.pageYOffset>navbar.clientTop+navbar.clientHeight&&window.pageYOffset<carousel.offsetTop-navbar.clientHeight)||(window.pageYOffset>ads.offsetTop&&window.pageYOffset<tier.offsetTop-navbar.clientHeight)){
-        navbar.style.background = "rgba(0, 0, 0, 0.0)"
-    }else{
-        navbar.style.background = "rgba(0,0,0,1)"
+    if(screen.width>768){
+        if((window.pageYOffset>navbar.clientTop+navbar.clientHeight&&window.pageYOffset<carousel.offsetTop-navbar.clientHeight)||(window.pageYOffset>ads.offsetTop&&window.pageYOffset<tier.offsetTop-navbar.clientHeight)){
+            navbar.style.background = "rgba(0, 0, 0, 0.0)"
+        }else{
+            navbar.style.background = "rgba(0,0,0,1)"
+        }
+
     }
 
 });

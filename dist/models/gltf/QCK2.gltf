@@ -71,7 +71,7 @@
     {
       "name": "shoes-processed",
       "byteLength": 705680,
-      "uri": "MaterialsVariantsShoe.bin"
+      "uri": "QCK2.bin"
     }
   ],
   "bufferViews": [
@@ -122,20 +122,12 @@
       "uri": "occlusionRougnessMetalness.jpg"
     },
     {
-      "mimeType": "image/jpeg",
-      "uri": "diffuseMidnight.jpg"
+      "mimeType": "image/png",
+      "uri": "qck2.png"
     },
     {
       "mimeType": "image/jpeg",
       "uri": "normal.jpg"
-    },
-    {
-      "mimeType": "image/jpeg",
-      "uri": "diffuseBeach.jpg"
-    },
-    {
-      "mimeType": "image/jpeg",
-      "uri": "diffuseStreet.jpg"
     }
   ],
   "materials": [

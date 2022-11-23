@@ -1,23 +1,24 @@
 .infoSections__container{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr ;
     height:100%;
 }
 
 .infoSection__container{
+    @include transition-ease;
     display:flex;
     flex-direction: column;
-    padding: 0px 100px;
-    margin: 30px 0px;
+    padding: 0px 50px;
+    margin: 30px 30px;
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    height:100vh;
+    height:100%;
 }
 .infoSection__container:nth-child(even){
 
-    border-right: 1px solid #000000;
-    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
     flex-direction: column-reverse;
 }
 
@@ -35,4 +36,10 @@
 
 .info__container{
     line-height: 30px;
+}
+
+.aboutUs__video{
+    position:fixed;
+    bottom:10px;
+    right:10px;
 }

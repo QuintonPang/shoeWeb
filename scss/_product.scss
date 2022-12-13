@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 .titleofproduct1 {
     font-style: normal;
     font-weight: bold;
@@ -37,10 +45,25 @@
 
 
 .text__container{
+    padding-bottom: 120px;
     display:flex;
     flex-direction:column;
     gap:75px;
     
+}
+
+.text__container2{
+    padding-bottom: 190px;
+    display:flex;
+    flex-direction:column;
+    gap:75px;
+}
+
+.text__container3{
+    padding-bottom: 195px;
+    display:flex;
+    flex-direction:column;
+    gap:75px;
 }
 
 .product__image__container{

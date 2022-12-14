@@ -777,16 +777,16 @@ h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 45px;
-  border: dashed #32a1ce;
-  padding: 10px;
-  width: 350px;
+  
 }
 
-.titleofproduct1_text {
+.specification_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
   font-family: serif;
-  font-weight: bold;
-  font-size: 50px;
-  color: red;
+  line-height: 1.2;
+  color: grey;
 }
 
 .productsize{
@@ -797,20 +797,23 @@ h2 {
   width: 500px;
 }
   
+.button {
+  border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid #555555;
 
-.specification {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 45px;
 }
 
-.specification_text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  font-family: Georgia, serif;
-  line-height: 1.2;
+.button:hover {
+    background-color: gray;
 }
+
+
 
 .product__container {
   -webkit-transition: all 0.5s ease-in-out;
@@ -832,7 +835,7 @@ h2 {
   gap: 10px;
 }
 
-.text__container {
+.text__container1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -841,9 +844,32 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 75px;
-  padding-top: 45px;
+  padding-bottom: 250px;
 }
 
+.text__container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 75px;
+  padding-bottom: 120px;
+}
+
+.text__container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 75px;
+  padding-bottom: 100px;
+}
 .product__image__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -876,17 +902,6 @@ h2 {
 
 }
 
-.productSpec__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 30px;
-
-}
 
 .product__image__container iframe {
   border: none;

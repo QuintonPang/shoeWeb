@@ -629,6 +629,16 @@
   -webkit-transition: border 1s;
   transition: border 1s;
   position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr ;
+  padding: 40px 0;
+}
+
+.border_card h2{
+  grid-row-start: 1;
+}
+.border_card p{
+  grid-row-start: 2/3 ;
 }
 
 .card {

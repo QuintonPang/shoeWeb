@@ -617,6 +617,7 @@
           flex-direction: column;
   gap: 50px;
   padding: 60px 0;
+  position:relative;
 }
 
 .border_card {
@@ -1513,7 +1514,7 @@ h2 {
 .footer__row p {
   color: #fff;
   text-align: center;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .footer__col__input {
@@ -1573,9 +1574,11 @@ h2 {
   
   html{
     overflow-x: visible !important;
+    height: 100% !important;
   }
   body{
     overflow-x: visible !important;
+    height: 100% !important ;
   }
 
 
@@ -1673,7 +1676,7 @@ html {
 }
 
 body {
-  height: 100%;
+  height: auto;
   margin: 0;
   max-width: 100vw ;
   overflow-x: hidden ;

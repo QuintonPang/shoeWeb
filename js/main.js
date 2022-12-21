@@ -13,18 +13,24 @@
 
 const changeButtonColor  = () =>{
     // alert("RAN")
+
+    // get buttons and slides
     const buttonArray  = document.getElementsByClassName("carousel__navigation-button")
     const bannerArray = document.getElementsByClassName("carousel__slide")
     // console.log(buttonArray)
     for(let i=0;i<bannerArray.length;i++){
         // alert(isInViewport(bannerArray[i])+i)
+        // change all buttons to black color
         buttonArray[i].style.backgroundColor = "black"
+        // check which is the current slide
         if(isInViewport(bannerArray[i])){
+            // set button to white color
             buttonArray[i].style.backgroundColor = "white"
         }
     }
 }
 
+// functiojn for checking if the slide is in viewport
 const isInViewport = function (ele) {
     const rect = ele.getBoundingClientRect();
     return (
@@ -80,7 +86,7 @@ const isInViewport = function (ele) {
 //     }
 // });
 
-
+// change opacity of navbar based on scroll position
 addEventListener('scroll', ()=>{
     const navbar = document.getElementsByClassName("navbar__container")[0];
     const carousel = document.getElementsByClassName("carousel")[0];
